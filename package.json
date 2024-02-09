@@ -1,0 +1,35 @@
+{
+  "name": "@nobleai/rescript-lodash",
+  "version": "4.17.21",
+  "description": "Rescript Bindings for Lodash",
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "test": "echo 'tests disabled for now'",
+    "pub": "yarn publish --scope nobleai --access public"
+  },
+  "files": [
+    "README.md",
+    "Changes.md",
+    "LICENSE",
+    "bsconfig.json",
+    "src/**/*.res",
+    "src/**/*.resi"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/noble-ai/rescript-lodash",
+  "author": "Alex Mouton (alex.mouton@noble.ai)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "rescript": "^10.1"
+  },
+  "peerDependencies": {
+    "lodash": "4.17.21"
+  },
+  "keywords": [
+    "rescript",
+    "lodash"
+  ]
+}
