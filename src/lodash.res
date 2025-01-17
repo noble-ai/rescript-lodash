@@ -57,10 +57,16 @@ external zip3: (
 external zip3Equal: (array<'a>, array<'b>, array<'c>) => array<('a, 'b, 'c)> = "zip"
 
 @module("lodash")
+external zip4Equal: (array<'a>, array<'b>, array<'c>, array<'d>) => array<('a, 'b, 'c, 'd)> = "zip"
+
+@module("lodash")
 external unzip2: array<('a, 'b)> => (array<'a>, array<'b>) = "unzip"
 
 @module("lodash")
 external unzip3: array<('a, 'b, 'c)> => (array<'a>, array<'b>, array<'c>) = "unzip"
+
+@module("lodash")
+external unzip4: array<('a, 'b, 'c, 'd)> => (array<'a>, array<'b>, array<'c>, array<'d>) = "unzip"
 
 type optsDebounce = {
   leading: option<bool>,
